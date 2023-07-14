@@ -21,9 +21,11 @@ python main.py
 Demo
 You can try a live demo of this project on Google Colab: 
 Langchain Chatbot Demo
+
 Link: https://colab.research.google.com/drive/1Jt1lfcQ40y_uat2L-gBYfUUCis0pnz7J#scrollTo=61qHTc4KfLM5
 
 Further Reading
 For a more detailed explanation of this project and the concepts behind it, check out this Medium article: 
 Building a Chatbot with Langchain
+
 Link: https://medium.com/@eredem96/deep-dive-into-building-conversational-agents-with-langchain-d73befdcac2f
