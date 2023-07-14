@@ -2,13 +2,16 @@ Langchain Chatbot with Multiple Documents
 
 This repository contains code for creating a chatbot using the Langchain library. Langchain is a Python library that simplifies the process of building applications with language models. It provides a set of components that can be combined in various ways to perform different tasks.
 
-Project Description
+Project Description:
+
 This project uses Langchain to create a chatbot that can answer questions based on the content of PDF, TXT, and DOCX files. The chatbot uses the GPT-3.5-turbo model from OpenAI to generate responses.
 
-How It Works
+How It Works:
+
 The code loads documents from a specified directory, splits the documents into smaller chunks, and converts these chunks into embeddings. These embeddings are then stored in a vector database. A ConversationalRetrievalChain is created from the language model and the vector database. This chain is used to generate responses to user queries based on the content of the loaded documents.
 
-Usage
+Usage:
+
 To use this code, you need to have Python installed on your machine. You also need to install the required libraries by running the following command:
 pip install langchain openai chromadb tiktoken
 
